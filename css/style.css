@@ -1,0 +1,90 @@
+:root {
+    --space:10px;
+    --txt: url(../img/texture2.png);
+    --c1: black;
+    --c2: white;
+    --c3: red;
+    --c4: #E0002D;
+}
+/*
+html{
+    font-size: medium;
+}
+*/
+body{
+    background-color: var(--c1);
+    margin: 2% 5% 2% 5%;
+}
+a, a:visited{
+    color: var(--c1);
+}a:hover{
+    color:var(--c3);
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.container{
+    border: 1px var(--c2) solid;
+    background-color: var(--c2);
+    border-radius: 1%;
+}
+
+.title{
+    color: var(--c2);
+    font-weight: bold;
+    text-transform: uppercase;
+}.color3{
+    background-image: var(--txt);
+    background-color: var(--c1);
+    padding: var(--space);
+}.color5{
+    background-image: var(--txt);
+    background-color:var(--c3);
+    padding: var(--space);
+}
+
+
+
+.btn{
+  position: fixed;
+  bottom: 5px;
+  right: 0px;
+  font-weight: bold;
+  background-color: var(--c1);
+  opacity: 0.5;
+  text-transform: uppercase;
+}.btn:hover{
+    border-color: var(--c3);
+    opacity: 1;
+    background-color: var(--c4);
+    /*background-image: var(--txt);*/
+    background-image: url(../img/texture-brick.png);
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.name{
+    color: var(--c2);
+}
+
+/* 
+@media only screen and (min-width: 800px){
+    
+    html{
+      font-size: large;
+    } 
+}
+@media only screen and (min-width: 1200px){
+    
+    html{
+      font-size: 30px;
+    } 
+}
+*/
